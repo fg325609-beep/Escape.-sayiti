@@ -1,0 +1,10 @@
+main section .container .section_one {
+  box-shadow: 0px 0px 10px rgb(73, 71, 71);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+main section .container .section_one a {
+  color: rgb(118, 128, 136);
+}/*# sourceMappingURL=sectionone.css.map */

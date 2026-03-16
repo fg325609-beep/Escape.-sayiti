@@ -1,0 +1,373 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Lora", serif;
+}
+
+body {
+  background: rgb(247, 247, 247);
+  cursor: row-resize;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-image: url(../img/header_hero.jpg);
+  background-size: cover;
+}
+header .container .navbar {
+  padding: 20px 0;
+}
+header .container .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .navbar ul h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+header .container .navbar ul li {
+  gap: 40px;
+}
+header .container .navbar ul li a {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: white;
+}
+header .header_hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .header_hero h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 50px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+header .header_hero p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+header .header_hero a {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 15px;
+  background: rgb(221, 120, 63);
+  color: white;
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+header .header_hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+main section .container .section_one {
+  box-shadow: 0px 0px 10px rgb(73, 71, 71);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+main section .container .section_one a {
+  color: rgb(118, 128, 136);
+}
+main section .container .section_two_text h1 {
+  text-align: center;
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  padding: 50px 0;
+}
+main section .container .section_two_text hr {
+  width: 20%;
+  margin: 0 auto;
+}
+main section .container .section_two {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .section_two ul {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+  background: url(../img/2b7ba23c300d279235514a4d799d7283716f4987.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+main section .container .section_two ul p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+main section .container .section_two ul h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+main section .container .section_two ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+main section .container .section_two ul li span {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+main section .container .section_two ul li span img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .container .section_theree {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main section .container .section_theree .card {
+  padding: 0 20px;
+  border-radius: 8px;
+}
+main section .container .section_theree .card img {
+  width: 100%;
+}
+main section .container .section_theree .card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main section .container .section_theree .card hr {
+  opacity: 0.5;
+}
+main section .container .section_theree .card ul {
+  display: flex;
+  flex-direction: column;
+}
+main section .container .section_theree .card ul h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  color: rgb(16, 19, 21);
+}
+main section .container .section_theree .card ul p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+main section .container .section_theree .card li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .section_theree .card li p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+main section .container .section_theree .card li span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .container .section_theree .card li span img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .container .section_theree .card li span p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 11px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+
+footer {
+  background: url(../img/—Pngtree—modern\ double\ color\ futuristic\ neon_1181573.jpg);
+  background-size: cover;
+}
+footer .cards {
+  background: rgba(35, 47, 56, 0.6);
+}
+footer .cards ul {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+footer .cards ul h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: white;
+}
+footer .cards ul li {
+  gap: 20px;
+}
+footer .cards ul li a {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 11px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: right;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.5;
+}
+footer .container .f_container {
+  padding: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+footer .container .f_container h1 {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+footer .container .f_container hr {
+  width: 30%;
+  margin: 0 auto;
+}
+footer .container .f_container form {
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 30%;
+  justify-content: space-between;
+}
+footer .container .f_container form a {
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.28);
+}
+footer .container .f_container form input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 755px) {
+  main section .container .section_two ul li {
+    flex-direction: column;
+  }
+  main section .container .section_theree {
+    justify-content: center;
+  }
+  main footer .container .f_container form {
+    width: 100%;
+    flex-direction: column;
+  }
+  main footer .container .f_container form input {
+    width: 100%;
+  }
+  header .container .header_hero a {
+    width: 100%;
+  }
+}
+@media (max-width: 455px) {
+  .container {
+    padding: 0 2px;
+  }
+  main section .container .section_two {
+    flex-direction: column;
+    gap: 50px;
+  }
+  main section .container .section_two ul {
+    width: 100%;
+  }
+  main section .container .section_theree {
+    flex-direction: column;
+    gap: 50px;
+  }
+  main section .container .section_theree .card {
+    width: 100%;
+  }
+  main .section_one {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */

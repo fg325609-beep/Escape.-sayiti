@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Lora", serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-image: url(./imgs/header_hero.jpg);
+  background-size: cover;
+}
+header .container .navbar {
+  padding: 20px 0;
+}
+header .container .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .navbar ul h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+header .container .navbar ul a {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+header .header_hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .header_hero h1 {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 50px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+header .header_hero p {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+header .header_hero a {
+  font-family: Oxygen;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 15px;
+  background: rgb(221, 120, 63);
+  color: white;
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+header .header_hero {
+  padding: 100px 0;
+  text-align: center;
+}/*# sourceMappingURL=header.css.map */
