@@ -354,14 +354,24 @@ footer{
                 border: 1px solid black;
                 width: 30%;
                 justify-content: space-between;
+                flex-direction: column;
+                gap: 20px;
                 a{
                     padding: 10px 15px;
                     background: rgba(255, 255, 255, 0.28);
+                    font-family: Roboto;
+                   font-weight: 400;
+                   font-style: Regular;
+                   font-size: 12px;
+                   line-height: 100%;
+                   letter-spacing: 0%;
+                   color: aliceblue;
+                   
 
                 }
                 input{
                     padding: 10px;
-                    width: 70%;
+                    width: 100%;
                      border: none;
                      outline: none;
                 }
