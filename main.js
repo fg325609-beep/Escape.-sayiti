@@ -17,4 +17,6 @@ btn.addEventListener("click", function(e){
     this.textContent = "email yoki usrnameni tog'ri kirit"
     
   }
+
+  
 })
