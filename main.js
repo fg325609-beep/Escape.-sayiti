@@ -14,7 +14,7 @@ btn.addEventListener("click", function(e){
 
     
   } else {
-    this.textContent = "email yoki usrnameni tog'ri kirit "
+    this.textContent = "email yoki usrnameni tog'ri kirit"
     
   }
 })
