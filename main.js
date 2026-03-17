@@ -18,5 +18,7 @@ btn.addEventListener("click", function(e){
     
   }
 
-  
+
 })
+
+ AOS.init();
